@@ -10,7 +10,7 @@
 	    int high = n - 1;
 	    int middle;
 	    int flag = 0;
-	 
+	 printf("Result: ");
 	    while (low <= high) {
 	        middle = (low + high) / 2;
 	        if (key == a[middle]) {
